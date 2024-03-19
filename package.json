@@ -2,8 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy":"https://mern-blog-7o6nr5lw1-chandan-samantarays-projects.vercel.app/",
-  "homepage": "https://mern-blog-7o6nr5lw1-chandan-samantarays-projects.vercel.app/",
+
 
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
