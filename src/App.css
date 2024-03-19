@@ -1,0 +1,177 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+background-color: black;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 15vh;
+padding: 0px 20px;
+position: fixed;
+left: 0;
+
+width: 100%;
+box-sizing: border-box;
+top: 0;
+
+}
+
+
+.navbar .middle a, .navbar .right a{
+        color: white;
+        font-size: 25px;
+        padding: 0px 10px;
+     
+   text-decoration: none;
+}
+
+ .navbar .right a:hover, .navbar .middle a:hover{
+
+    background-color: cadetblue;
+    padding: 10px;
+
+}
+
+
+.blog-card{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    padding: 20px 4px;
+}
+
+
+
+
+.blog-card img{
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+
+}
+
+
+
+.blogs-div h3{
+      font-size: 20px;
+      color: rgb(10, 144, 17);
+      font-weight: bolder;
+      float: left;
+      padding: 3px 5px;
+      border: 2px solid black;
+      border-radius: 5px;
+      clear: both;
+}
+
+.blogs-div h4{
+    font-size: 15px;
+    color: rgb(247, 8, 8);
+    font-weight: bolder;
+    float: left;
+    clear: both;
+    padding: 3px 5px;
+ 
+}
+.blog-card h2{
+    font-size: 30px;
+   width: 100%;
+   padding: 5px  0px;
+   word-wrap: break-word;
+    color: green;
+   
+   box-sizing: border-box;
+   margin-top: 10px;
+}
+.blog-card h5{
+     font-size: large;
+    width: 100%;
+    word-wrap: break-word;
+
+    color: black;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+.blog-card Button{
+
+    padding: 10px 20px;
+   font-size: 25px;
+      background-color: orangered;
+      color: white;
+      margin-top: 10px;
+      border-radius: 10px;
+
+}
+
+.blogs-div{
+    width: 100%;
+  
+display: flex;
+text-align: center;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 15vh;
+  
+}
+
+.form-div{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15vh;
+    height: 100vh;
+
+
+}
+
+.form-div input{
+
+    padding: 10px 20px;
+    width: 100%;
+    margin: 30px;
+}
+
+
+
+
+
+.login-div, .login-div form{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    height: 100vh;
+
+
+}
+
+.login-div input{
+
+    padding: 10px 20px;
+    width: 100%;
+    margin: 30px;
+}
+
+
+
+.blog-card #delete,#edit {
+    color: chartreuse;
+    font-size: 30px;
+    float: right;
+}
